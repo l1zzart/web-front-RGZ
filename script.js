@@ -23,7 +23,7 @@ setInterval(showDate, 1000);
 
 document.addEventListener('DOMContentLoaded', function() {
     const navItems = document.querySelectorAll('.nav-item');
-    const currentPage = window.location.pathname.split('/').pop() || 'about.html';
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
 
     navItems.forEach(item => {
         const itemHref = item.getAttribute('href');
