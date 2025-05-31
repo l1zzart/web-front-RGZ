@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Видео | ПАО «ГАЗ-Тек»</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <link rel="icon" href="logo_fav.png">
+    </head>
+    <body>
+        <header class="header">
+            <img src="logo.png" alt="Логотип" class="logo">
+            <h1>ПАО «ГАЗ-Тек»</h1>
+            <img src="sky.png" alt="Фоновое изображение" class="header-image">
+        </header>
+
+        <h2>Видео</h2>
+
+        <iframe 
+            width="720" 
+            height="405" 
+            src="https://rutube.ru/play/embed/4ac7842035fe842bdfdfeee0ff5fe8a1/" 
+            frameBorder="0" 
+            allow="clipboard-write;  fullscreen"
+            style="display: block; margin: 0 auto 80px;" 
+            allowFullScreen
+        ></iframe>
+
+        <div class="scroll-to-top">
+            <a href="#"><img src="arrow.png" alt="Наверх"></a>
+        </div>
+
+        <div class="nav-panel">
+            <a href="about.html" class="nav-item">
+                <img src="about.png" class="nav-icon" alt="О компании" data-active-src="about_blue.png"> 
+                <span class="nav-text">О компании</span>
+            </a>
+            <a href="news.html" class="nav-item">
+                <img src="news.png" class="nav-icon" alt="Новости" data-active-src="news_blue.png">
+                <span class="nav-text">Новости</span>
+            </a>
+            <a href="currency.html" class="nav-item">
+                <img src="currency.png" class="nav-icon" alt="Курс валют" data-active-src="currency_blue.png">
+                <span class="nav-text">Курс валют</span>
+            </a>
+            <a href="contact.html" class="nav-item">
+                <img src="contact.png" class="nav-icon" alt="Контакты" data-active-src="contact_blue.png">
+                <span class="nav-text">Контакты</span>
+            </a>
+            <a href="video.html" class="nav-item">
+                <img src="video.png" class="nav-icon" alt="Видео" data-active-src="video_blue.png">
+                <span class="nav-text">Видео</span>
+            </a>
+        </div>
+
+        <footer>
+            <div class="datetime">
+                <span id="current-date"></span>
+                <span id="current-time"></span>
+            </div>
+            © ПАО «ГАЗ-Тек» | МОСКВА
+        </footer>
+    </body>
+</html>
